@@ -230,6 +230,7 @@ img {
     //! Grid Area
     .bio-image {
       grid-area: bioimage;
+      height: 30rem;
     }
 
     .bio {
@@ -286,7 +287,8 @@ img {
       gap: 2rem;
 
       img {
-        width: 70;
+        width: 60px;
+        margin: auto;
       }
     }
   }

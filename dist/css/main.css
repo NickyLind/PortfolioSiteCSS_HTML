@@ -362,6 +362,7 @@ img {
 }
 #about-a .bio-image {
   grid-area: bioimage;
+  height: 30rem;
 }
 #about-a .bio {
   grid-area: bio;
@@ -402,7 +403,8 @@ img {
   gap: 2rem;
 }
 #about-c .about-logos img {
-  width: 70;
+  width: 60px;
+  margin: auto;
 }
 #about-d .testimonials {
   display: grid;
