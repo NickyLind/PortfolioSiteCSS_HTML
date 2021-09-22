@@ -54,6 +54,11 @@ input[class^=btn-]:hover {
   margin-bottom: 2rem;
 }
 
+.lead-2 {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
 .text-center {
   text-align: center;
 }
