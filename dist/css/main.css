@@ -15,7 +15,7 @@
 
 .btn-main {
   color: #333;
-  background-color: #ffbc00;
+  background-color: #ff9900;
 }
 .btn-light {
   color: #333;
@@ -29,11 +29,11 @@
 button[class^=btn-]:hover,
 a[class^=btn-]:hover,
 input[class^=btn-]:hover {
-  background-color: #ffbc00;
+  background-color: #ff9900;
 }
 
 .bg-main {
-  background: #ffbc00;
+  background: #ff9900;
   color: #fff;
 }
 .bg-dark {
@@ -96,7 +96,7 @@ input[class^=btn-]:hover {
 .bottom-line {
   height: 2px;
   width: 3rem;
-  background-color: #ffbc00;
+  background-color: #ff9900;
   display: block;
   margin: 0 auto 1rem auto;
 }
@@ -110,7 +110,7 @@ input[class^=btn-]:hover {
 
 .item {
   position: relative;
-  background: #ffbc00 100%;
+  background: #ff9900 100%;
   overflow: hidden;
   height: 15rem;
 }
@@ -249,7 +249,7 @@ img {
   border-color: #ccc;
 }
 #main-nav a.current {
-  border-color: #ffbc00;
+  border-color: #ff9900;
 }
 
 #header-home {
@@ -269,7 +269,7 @@ img {
 #header-inner {
   background: url("../img/showcase.jpg") no-repeat 20% 30%/cover;
   height: 5.5rem;
-  border-bottom: 3px solid #ffbc00;
+  border-bottom: 3px solid #ff9900;
 }
 
 #home-a .specials {
@@ -279,7 +279,7 @@ img {
   grid-template-columns: repeat(4, 1fr);
 }
 #home-a .specials svg {
-  color: #ffbc00;
+  color: #ff9900;
   padding-bottom: 0.4rem;
 }
 #home-b .stats {
@@ -316,7 +316,7 @@ img {
   top: 0;
   right: 0;
   font-size: 28px;
-  background: #ffbc00;
+  background: #ff9900;
   color: #fff;
   border-radius: 50%;
   height: 15px;
@@ -342,7 +342,7 @@ img {
   align-items: center;
 }
 #home-c .process-container:hover {
-  background: #ffbc00;
+  background: #ff9900;
   width: 90px;
   height: 90px;
   line-height: 90px;
@@ -368,7 +368,7 @@ img {
 }
 #about-a .bio {
   grid-area: bio;
-  border-left: 3px solid #ffbc00;
+  border-left: 3px solid #ff9900;
   padding: 0.8rem;
 }
 #about-a .bio h4 {
@@ -396,7 +396,7 @@ img {
 #about-a .award-2 svg,
 #about-a .award-3 svg,
 #about-a .award-4 svg {
-  color: #ffbc00;
+  color: #ff9900;
   margin: 1rem;
 }
 #about-a .award-1 a,
@@ -409,7 +409,7 @@ img {
 #about-a .award-2 a:hover,
 #about-a .award-3 a:hover,
 #about-a .award-4 a:hover {
-  border-bottom: 2px solid #ffbc00;
+  border-bottom: 2px solid #ff9900;
 }
 #about-b .progress {
   overflow: hidden;
@@ -422,7 +422,7 @@ img {
   height: 100%;
   color: #fff;
   text-align: center;
-  background: #ffbc00;
+  background: #ff9900;
 }
 #about-c .about-logos {
   display: grid;
@@ -458,7 +458,7 @@ img {
 
 #contact-a .text-fields {
   display: grid;
-  grid-template-areas: "name email" "subject phone" "message message";
+  grid-template-areas: "name email" "subject phone" "message message" "captcha captcha";
   gap: 1.2rem;
   margin-bottom: 1.2rem;
 }
@@ -480,6 +480,12 @@ img {
 }
 #contact-a .text-fields .text-input {
   padding: 0.5rem 1rem;
+}
+#contact-a .text-fields .captcha {
+  grid-area: captcha;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
 }
 #contact-a button[type=submit] {
   width: 50%;
@@ -518,7 +524,7 @@ img {
   transition: all 1s;
 }
 #main-footer .footer-content .social a svg:hover {
-  background: #ffbc00;
+  background: #ff9900;
   color: #fff;
 }
 
@@ -541,7 +547,7 @@ img {
 
   #header-home {
     height: 10rem;
-    border-bottom: 3px solid #ffbc00;
+    border-bottom: 3px solid #ff9900;
     background-position: 20% 30%;
   }
   #header-home .header-content {
