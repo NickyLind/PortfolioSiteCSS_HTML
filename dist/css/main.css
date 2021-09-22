@@ -357,17 +357,23 @@ img {
 
 #about-a .about-info {
   display: grid;
-  grid-template-areas: "bioimage bio bio" "aw1 aw2 aw3";
+  grid-template-areas: "bioimage bioimage bio bio" "header header header header" "aw1 aw2 aw3 aw4";
   gap: 1.2rem;
 }
 #about-a .bio-image {
   grid-area: bioimage;
-  height: 30rem;
+  height: 40rem;
 }
 #about-a .bio {
   grid-area: bio;
   border-left: 3px solid #ffbc00;
   padding: 0.8rem;
+}
+#about-a .bio h4 {
+  font-size: 3rem;
+}
+#about-a .bio p {
+  font-size: 1.5rem;
 }
 #about-a .award-1 {
   grid-area: aw1;
@@ -378,11 +384,30 @@ img {
 #about-a .award-3 {
   grid-area: aw3;
 }
+#about-a .award-4 {
+  grid-area: aw4;
+}
+#about-a .header-awards {
+  grid-area: header;
+}
 #about-a .award-1 svg,
 #about-a .award-2 svg,
-#about-a .award-3 svg {
+#about-a .award-3 svg,
+#about-a .award-4 svg {
   color: #ffbc00;
   margin: 1rem;
+}
+#about-a .award-1 a,
+#about-a .award-2 a,
+#about-a .award-3 a,
+#about-a .award-4 a {
+  transition: all 0.5s;
+}
+#about-a .award-1 a:hover,
+#about-a .award-2 a:hover,
+#about-a .award-3 a:hover,
+#about-a .award-4 a:hover {
+  border-bottom: 2px solid #ffbc00;
 }
 #about-b .progress {
   overflow: hidden;

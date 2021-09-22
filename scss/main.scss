@@ -222,21 +222,30 @@ img {
     .about-info {
       display: grid;
       grid-template-areas:
-        "bioimage bio bio"
-        "aw1 aw2 aw3";
+        "bioimage bioimage bio bio"
+        "header header header header"
+        "aw1 aw2 aw3 aw4";
       gap: 1.2rem;
     }
 
     //! Grid Area
     .bio-image {
       grid-area: bioimage;
-      height: 30rem;
+      height: 40rem;
     }
 
     .bio {
       grid-area: bio;
       border-left: 3px solid $main-color;
       padding: 0.8rem;
+
+      h4 {
+        font-size: 3rem;
+      }
+
+      p {
+        font-size: 1.5rem;
+      }
     }
 
     .award {
@@ -251,13 +260,32 @@ img {
       &-3 {
         grid-area: aw3;
       }
+
+      &-4 {
+        grid-area: aw4;
+      }
+    }
+
+    .header-awards {
+      grid-area: header;
     }
 
     .award-1 svg,
     .award-2 svg,
-    .award-3 svg {
+    .award-3 svg,
+    .award-4 svg {
       color: $main-color;
       margin: 1rem;
+    }
+
+    .award-1 a,
+    .award-2 a,
+    .award-3 a,
+    .award-4 a {
+      transition: all 0.5s;
+      &:hover {
+        border-bottom: 2px solid $main-color;
+      }
     }
   }
 
