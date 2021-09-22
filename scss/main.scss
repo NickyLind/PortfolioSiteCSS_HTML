@@ -96,6 +96,9 @@ img {
 
   //! Header Inner
   &-inner {
+    background: $bg-image no-repeat 20% 30% / cover;
+    height: 5.5rem;
+    border-bottom: 3px solid $main-color;
   }
 }
 
@@ -206,6 +209,51 @@ img {
         justify-content: center;
         align-items: center;
       }
+    }
+  }
+}
+
+//! About Sections
+#about {
+  &-a {
+    .about-info {
+      display: grid;
+      grid-template-areas:
+        "bioimage bio bio"
+        "aw1 aw2 aw3";
+      gap: 1.2rem;
+    }
+
+    //! Grid Area
+    .bio-image {
+      grid-area: bioimage;
+    }
+
+    .bio {
+      grid-area: bio;
+      border-left: 3px solid $main-color;
+      padding: 0.8rem;
+    }
+
+    .award {
+      &-1 {
+        grid-area: aw1;
+      }
+
+      &-2 {
+        grid-area: aw2;
+      }
+
+      &-3 {
+        grid-area: aw3;
+      }
+    }
+
+    .award-1 svg,
+    .award-2 svg,
+    .award-3 svg {
+      color: $main-color;
+      margin: 1rem;
     }
   }
 }
