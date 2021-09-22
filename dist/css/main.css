@@ -370,11 +370,15 @@ img {
 #about-a .bio-image {
   grid-area: bioimage;
   height: 40rem;
+  max-width: 615px;
+  margin: 0 auto;
 }
 #about-a .bio {
   grid-area: bio;
   border-left: 3px solid #ff9900;
   padding: 0.8rem;
+  max-width: 615px;
+  margin: 0 auto;
 }
 #about-a .bio h4 {
   font-size: 3rem;
@@ -539,6 +543,23 @@ img {
   }
   #header-home .header-content {
     padding-top: 5rem;
+  }
+}
+@media (max-width: 1254px) {
+  #about-a .about-info {
+    grid-template-areas: "bioimage bioimage" "bio bio" "header header" "aw1 aw2" "aw3 aw4";
+  }
+  #about-a .bio-image,
+#about-a .bio {
+    display: flex;
+    justify-content: center;
+  }
+  #about-a .bio {
+    display: flex;
+    flex-direction: column;
+  }
+  #about-c {
+    display: none;
   }
 }
 @media (max-width: 500px) {

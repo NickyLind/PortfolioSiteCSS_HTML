@@ -9,6 +9,38 @@
   }
 }
 
+//! 1024 & Lower Browser Pages
+@media (max-width: 1254px) {
+  //! About Page
+  #about {
+    &-a {
+      .about-info {
+        grid-template-areas:
+          "bioimage bioimage"
+          "bio bio"
+          "header header"
+          "aw1 aw2"
+          "aw3 aw4";
+      }
+
+      .bio-image,
+      .bio {
+        display: flex;
+        justify-content: center;
+      }
+
+      .bio {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+
+    &-c {
+      display: none;
+    }
+  }
+}
+
 //! Smartphone
 @media (max-width: 500px) {
   #main-nav {
