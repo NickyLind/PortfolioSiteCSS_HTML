@@ -67,6 +67,23 @@ input[class^=btn-]:hover {
   margin: 4rem 0rem;
 }
 
+.section-title {
+  font-size: 2rem;
+  display: block;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.bottom-line {
+  height: 2px;
+  width: 3rem;
+  background-color: #ffbc00;
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -175,6 +192,85 @@ img {
 }
 #home-b .stats div:nth-child(even) {
   background-color: #ccc;
+}
+#home-c .process {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  text-align: center;
+}
+#home-c .process-step {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 28px;
+  background: #ffbc00;
+  color: #fff;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  line-height: 15px;
+  padding: 1rem;
+  transition: all 1s;
+}
+#home-c .process-container {
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  padding: 2rem;
+  margin: 0 auto 2rem auto;
+  text-align: center;
+  background: #333;
+  color: #fff;
+  border-radius: 50%;
+  position: relative;
+  transition: all 1s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#home-c .process-container:hover {
+  background: #ffbc00;
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+}
+#home-c .process-container:hover .process-step {
+  background: #333;
+  color: #fff;
+}
+#home-c .process .div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main-footer {
+  background: #333;
+  color: #fff;
+  height: 5rem;
+}
+#main-footer .footer-content {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+}
+#main-footer .footer-content .social a svg {
+  margin-right: 1rem;
+  border: 2px white solid;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  line-height: 20px;
+  text-align: center;
+  padding: 0.5rem;
+  color: #fff;
+  transition: all 1s;
+}
+#main-footer .footer-content .social a svg:hover {
+  background: #ffbc00;
+  color: #fff;
 }
 
 /*# sourceMappingURL=main.css.map */
