@@ -72,9 +72,22 @@
         grid-template-areas:
           "bioimage"
           "bio"
+          "header"
           "aw1"
           "aw2"
-          "aw3";
+          "aw3"
+          "aw4";
+      }
+
+      .bio-image,
+      .bio {
+        display: flex;
+        width: 100%;
+      }
+
+      .bio {
+        display: flex;
+        flex-direction: column;
       }
     }
 
@@ -92,7 +105,8 @@
           "subject"
           "email"
           "phone"
-          "message";
+          "message"
+          "captcha";
       }
     }
 

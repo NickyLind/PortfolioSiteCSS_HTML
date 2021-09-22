@@ -579,14 +579,23 @@ img {
   }
 
   #about-a .about-info {
-    grid-template-areas: "bioimage" "bio" "aw1" "aw2" "aw3";
+    grid-template-areas: "bioimage" "bio" "header" "aw1" "aw2" "aw3" "aw4";
+  }
+  #about-a .bio-image,
+#about-a .bio {
+    display: flex;
+    width: 100%;
+  }
+  #about-a .bio {
+    display: flex;
+    flex-direction: column;
   }
   #about-c {
     display: none;
   }
 
   #contact-a .text-fields {
-    grid-template-areas: "name" "subject" "email" "phone" "message";
+    grid-template-areas: "name" "subject" "email" "phone" "message" "captcha";
   }
   #contact-b div {
     margin-bottom: 1rem;
