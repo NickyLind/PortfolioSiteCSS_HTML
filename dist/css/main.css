@@ -112,6 +112,7 @@ input[class^=btn-]:hover {
   position: relative;
   background: #ffbc00 100%;
   overflow: hidden;
+  height: 15rem;
 }
 .item::after {
   content: "";
@@ -137,7 +138,7 @@ input[class^=btn-]:hover {
   transform: translateY(0);
 }
 .item-image {
-  height: 10rem;
+  height: 100%;
   transform: translateZ(0);
   display: block;
   transition: transform 750ms cubic-bezier(0.2, 1, 0.3, 1);
