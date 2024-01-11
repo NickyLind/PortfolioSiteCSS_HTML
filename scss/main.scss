@@ -246,7 +246,7 @@ img {
     //! Grid Area
     .bio-image {
       grid-area: bioimage;
-      height: 40rem;
+      height: 100%;
       max-width: 615px;
       margin: 0 auto;
     }
@@ -336,6 +336,12 @@ img {
       img {
         width: 60px;
         margin: auto;
+      }
+
+      i {
+        font-size: 50px;
+        width: 50px;
+        margin: 0 auto;
       }
     }
   }

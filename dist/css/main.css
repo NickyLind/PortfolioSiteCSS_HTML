@@ -99,6 +99,10 @@ input[class^=btn-]:hover {
   text-transform: uppercase;
 }
 
+.section-subheading {
+  text-align: center;
+}
+
 .bottom-line {
   height: 2px;
   width: 3rem;
@@ -384,7 +388,7 @@ img {
 }
 #about-a .bio-image {
   grid-area: bioimage;
-  height: 40rem;
+  height: 100%;
   max-width: 615px;
   margin: 0 auto;
 }
@@ -456,6 +460,11 @@ img {
 #about-c .about-logos img {
   width: 60px;
   margin: auto;
+}
+#about-c .about-logos i {
+  font-size: 50px;
+  width: 50px;
+  margin: 0 auto;
 }
 #about-d .testimonials {
   display: grid;
@@ -573,9 +582,6 @@ img {
     display: flex;
     flex-direction: column;
   }
-  #about-c {
-    display: none;
-  }
 }
 @media (max-width: 500px) {
   #main-nav {
@@ -631,8 +637,9 @@ img {
     display: flex;
     flex-direction: column;
   }
-  #about-c {
-    display: none;
+  #about-c .about-logos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   #contact-a .text-fields {

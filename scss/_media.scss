@@ -36,7 +36,7 @@
     }
 
     &-c {
-      display: none;
+      // display: none;
     }
   }
 }
@@ -124,7 +124,11 @@
     }
 
     &-c {
-      display: none;
+      // display: none;
+      .about-logos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+      }
     }
   }
 
