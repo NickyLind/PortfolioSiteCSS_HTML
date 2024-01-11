@@ -6,10 +6,13 @@
   "dependencies": {
     "sass": "^1.42.0"
   },
-  "devDependencies": {},
-  "scripts": {
-    "sass": "sass --watch scss:dist/css"
+  "devDependencies": {
+    "http-server": "^0.12.3"
   },
+  "scripts": {
+    "sass": "sass --watch scss:dist/css",
+    "start": "npm run sass & http-server dist -p 8080"
+  },  
   "author": "Nick Lindau",
   "license": "ISC"
 }
