@@ -230,6 +230,9 @@ img {
   color: #fff;
   text-transform: uppercase;
 }
+#logo:hover {
+  border-bottom: none;
+}
 
 #main-nav {
   display: flex;
@@ -241,6 +244,17 @@ img {
 }
 #main-nav li {
   padding: 1rem 1.5rem;
+}
+#main-nav #logo-link {
+  text-decoration: none;
+  text-transform: none;
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  transition: none;
+}
+#main-nav #logo-link:hover {
+  border-bottom: none;
 }
 #main-nav a {
   text-decoration: none;
