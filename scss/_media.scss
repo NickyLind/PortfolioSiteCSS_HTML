@@ -41,6 +41,13 @@
   }
 }
 
+//! Tablet
+@media (max-width: 768px) {
+  .items {
+    grid-template-columns: 1fr;
+  }
+}
+
 //! Smartphone
 @media (max-width: 500px) {
   #main-nav {
@@ -73,9 +80,6 @@
   #home-c .process,
   #about-d .testimonials,
   #contact-b .contact-info,
-  .items {
-    grid-template-columns: 1fr;
-  }
 
   #home {
     &-a {
