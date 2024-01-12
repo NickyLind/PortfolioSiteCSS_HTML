@@ -630,6 +630,23 @@ img {
     height: 10rem;
   }
 
+  #home-a .specials {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #home-b .stats {
+    grid-template-columns: 1fr;
+  }
+  #home-c .process {
+    grid-template-columns: 1fr;
+  }
+
+  #about-a .bio {
+    padding: 0;
+  }
+  #about-a .bio p {
+    padding: 5px;
+  }
+
   #home-a .specials-a .specials div,
 #home-b .stats-a .specials div,
 #home-c .process-a .specials div,

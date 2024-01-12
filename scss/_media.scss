@@ -70,6 +70,36 @@
     }
   }
 
+  #home {
+    &-a {
+      .specials {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    &-b {
+      .stats {
+        grid-template-columns: 1fr;
+      }
+    }
+    &-c {
+      .process {
+        grid-template-columns: 1fr;
+      }
+    }
+  }
+
+  #about {
+    &-a {
+      .bio {
+        padding: 0;
+
+        p {
+          padding: 5px;
+        }
+      }
+    }
+  }
+
   //! Stack Grid Columns
   #home-a .specials,
   #home-b .stats,
