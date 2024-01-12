@@ -11,6 +11,7 @@
   },
   "scripts": {
     "sass": "sass --watch scss:dist/css",
+    "build:sass": "sass scss/main.scss dist/css/main.css",
     "start": "npm run sass & http-server dist -p 8080"
   },  
   "author": "Nick Lindau",
