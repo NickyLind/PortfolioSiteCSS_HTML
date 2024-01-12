@@ -376,6 +376,31 @@ img {
   }
 }
 
+//! Work Sections
+#work {
+  &-a {
+      .underline {
+        text-decoration: underline;
+      }
+      .showcase {
+        margin-top: 5rem;
+
+        h4 {
+          text-transform: none;
+          margin-bottom: 1rem;
+        }
+
+        ul {
+          margin-top: 2rem;
+
+          li {
+            text-align: left;
+          }
+        }
+      }
+  }
+}
+
 //! Contact Page
 #contact {
   &-a {
