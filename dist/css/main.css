@@ -16,7 +16,7 @@
 
 .btn-main {
   color: #333;
-  background-color: #ff9900;
+  background-color: #f7b022;
 }
 .btn-light {
   color: #333;
@@ -30,12 +30,12 @@
 button[class^=btn-]:hover,
 a[class^=btn-]:hover,
 input[class^=btn-]:hover {
-  background-color: #ff9900;
+  background-color: #f7b022;
 }
 
 .bg-main {
-  background: #ff9900;
-  color: #fff;
+  background: #f7b022;
+  color: #000;
 }
 .bg-dark {
   background: #333;
@@ -106,7 +106,7 @@ input[class^=btn-]:hover {
 .bottom-line {
   height: 2px;
   width: 3rem;
-  background-color: #ff9900;
+  background-color: #f7b022;
   display: block;
   margin: 0 auto 1rem auto;
 }
@@ -123,7 +123,7 @@ input[class^=btn-]:hover {
 
 .item {
   position: relative;
-  background: #ff9900 100%;
+  background: #f7b022 100%;
   overflow: hidden;
   height: 15rem;
 }
@@ -277,7 +277,7 @@ img {
   border-color: #ccc;
 }
 #main-nav a.current {
-  border-color: #ff9900;
+  border-color: #f7b022;
 }
 
 #header-home {
@@ -297,7 +297,7 @@ img {
 #header-inner {
   background: url("../img/showcase.jpg") no-repeat 20% 30%/cover;
   height: 5.5rem;
-  border-bottom: 3px solid #ff9900;
+  border-bottom: 3px solid #f7b022;
 }
 
 #home-a .specials {
@@ -307,7 +307,7 @@ img {
   grid-template-columns: repeat(4, 1fr);
 }
 #home-a .specials svg {
-  color: #ff9900;
+  color: #f7b022;
   padding-bottom: 0.4rem;
 }
 #home-b .stats {
@@ -344,8 +344,8 @@ img {
   top: 0;
   right: 0;
   font-size: 28px;
-  background: #ff9900;
-  color: #fff;
+  background: #f7b022;
+  color: #000;
   border-radius: 50%;
   height: 15px;
   width: 15px;
@@ -370,7 +370,7 @@ img {
   align-items: center;
 }
 #home-c .process-container:hover {
-  background: #ff9900;
+  background: #f7b022;
   width: 90px;
   height: 90px;
   line-height: 90px;
@@ -398,7 +398,7 @@ img {
 }
 #about-a .bio {
   grid-area: bio;
-  border-left: 3px solid #ff9900;
+  border-left: 3px solid #f7b022;
   padding: 0.8rem;
   max-width: 615px;
   margin: 0 auto;
@@ -428,7 +428,7 @@ img {
 #about-a .award-2 svg,
 #about-a .award-3 svg,
 #about-a .award-4 svg {
-  color: #ff9900;
+  color: #f7b022;
   margin: 1rem;
 }
 #about-a .award-1 a,
@@ -441,7 +441,7 @@ img {
 #about-a .award-2 a:hover,
 #about-a .award-3 a:hover,
 #about-a .award-4 a:hover {
-  border-bottom: 2px solid #ff9900;
+  border-bottom: 2px solid #f7b022;
 }
 #about-b .progress {
   overflow: hidden;
@@ -454,7 +454,7 @@ img {
   height: 100%;
   color: #fff;
   text-align: center;
-  background: #ff9900;
+  background: #f7b022;
 }
 #about-c .about-logos {
   display: grid;
@@ -578,8 +578,8 @@ img {
   transition: all 1s;
 }
 #main-footer .footer-content .social a svg:hover {
-  background: #ff9900;
-  color: #fff;
+  background: #f7b022;
+  color: #000;
 }
 
 @media (max-width: 800px) {
@@ -620,7 +620,7 @@ img {
 
   #header-home {
     height: 10rem;
-    border-bottom: 3px solid #ff9900;
+    border-bottom: 3px solid #f7b022;
     background-position: 20% 30%;
   }
   #header-home .header-content {
